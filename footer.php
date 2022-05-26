@@ -12,6 +12,14 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
+    <div class="footerBox">
+            <ul>
+                <a href="/index.html"><li>Home</li></a>
+                <a href="/about.html"><li>About</li></a>
+                <a href="/contact.html"><li>Contact</li></a>
+            </ul>
+
+        </div>
         <div class="footerBox">
             <p>&copy; W4B Neptali Montez</p>
         </div>
@@ -22,7 +30,6 @@
                 <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-square fa-2x"></i></a>
             </div>
         </div>
-    <!-- This is the end of footer -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

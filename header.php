@@ -30,7 +30,7 @@
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
-		?>
+			?>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
