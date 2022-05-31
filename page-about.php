@@ -35,8 +35,6 @@
     <div class="body-about-top">
         <div class="body-about-top-left"></div>
         <div class="body-about-top-right"></div>
-    </div>
-    <div class="body-about-bottom">
         <div class="body-about-bottom-left"></div>
         <div class="body-about-bottom-right"></div>
     </div>

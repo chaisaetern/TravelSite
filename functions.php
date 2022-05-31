@@ -50,6 +50,7 @@ function travelsite2_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'travelsite2' ),
+			'footer-menu' => __('Footer Menu', 'travel-site'),
 		)
 	);
 

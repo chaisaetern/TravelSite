@@ -11,7 +11,7 @@
 <!-- This is the start of hero section -->
 <main id="topBtn">
     <div class="hero-text">
-        <h1>Hello World</h1>
+        <h1><?php the_field('page_title'); ?></h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
 </main>
@@ -20,7 +20,7 @@
 <!-- This is the start of icon section -->
 <section class="row">
     <div class="column">
-        <img src="http://travelsite2.local/wp-content/uploads/2022/05/globe.png" alt="pink globe icon.">
+        <img src="<?php the_field('icon_1'); ?>" alt="pink globe icon.">
         <h2>CHOOSE YOUR DESTIANTION</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis inventore, perspiciatis rerum quisquam nam ex. </p>
     </div>
