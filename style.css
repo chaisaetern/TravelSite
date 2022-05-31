@@ -940,6 +940,48 @@ main {
 }
 
 /* This is th end of the banner section */
+/* This is the start of hero section  */
+#topBtn-contact {
+  width: 100%;
+  height: 500px;
+  background-color: blue;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("http://travelsite2.local/wp-content/uploads/2022/05/bernd-dittrich-CfEeTzvHzfE-unsplash-scaled.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-text-contact {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* This is the end of hero section  */
+/* This is the start of hero section  */
+#topBtn-about {
+  width: 100%;
+  height: 500px;
+  background-color: blue;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("http://travelsite2.local/wp-content/uploads/2022/05/jase-bloor-oCZHIa1D4EU-unsplash-scaled.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-text-about {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* This is the end of hero section  */
 /* Comments
 --------------------------------------------- */
 .comment-content a {
