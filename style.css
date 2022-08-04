@@ -1000,71 +1000,38 @@ main {
   height: 75vh;
   background-color: #0c0a20;
   color: #FFFFFF;
-}
-.body-about-container .body-about-top {
-  height: 50%;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.body-about-container .body-about-wrapper {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 2.5rem;
   gap: 1rem;
+  width: 100%;
+  padding: 1rem;
 }
-.body-about-container .body-about-top > div {
-  height: 100%;
-  width: 33%;
+.body-about-container .body-about-wrapper div {
+  flex: 1 0 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
 }
-.body-about-container .body-about-top .body-about-top-left {
-  border: 1px solid white;
+.body-about-container .body-about-wrapper div img {
+  max-height: 30rem;
+  width: auto;
   transition: 1s;
-  background-image: url("http://travelsite2.local/wp-content/uploads/2022/05/irina-iriser-tPhfHSEeGaI-unsplash-scaled.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
-.body-about-container .body-about-top .body-about-top-left:hover {
-  z-index: 1;
+.body-about-container .body-about-wrapper div img:hover {
+  transform: scale(1.1);
   filter: brightness(0.5);
 }
-.body-about-container .body-about-top .body-about-top-right {
-  border: 1px solid white;
-  transition: 1s;
-  background-color: white;
-  background-image: url("http://travelsite2.local/wp-content/uploads/2022/05/van-mendoza-r7YZXv5f5cc-unsplash-scaled.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.body-about-container .body-about-top .body-about-top-right:hover {
-  z-index: 1;
-  filter: brightness(0.5);
-}
-.body-about-container .body-about-top .body-about-bottom-left {
-  border: 1px solid white;
-  transition: 1s;
-  background-color: white;
-  background-image: url("http://travelsite2.local/wp-content/uploads/2022/05/reynier-carl-IzXTR79nph0-unsplash-scaled.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.body-about-container .body-about-top .body-about-bottom-left:hover {
-  z-index: 1;
-  filter: brightness(0.5);
-}
-.body-about-container .body-about-top .body-about-bottom-right {
-  border: 1px solid white;
-  transition: 1s;
-  background-color: white;
-  background-image: url("http://travelsite2.local/wp-content/uploads/2022/05/karim-elgamil-gVb_xcGkNdQ-unsplash-scaled.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.body-about-container .body-about-top .body-about-bottom-right:hover {
-  z-index: 1;
-  filter: brightness(0.5);
+.body-about-container .body-about-wrapper div h2 {
+  padding: 3rem;
 }
 
 /* This is the end of body about section */

@@ -25,12 +25,12 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis inventore, perspiciatis rerum quisquam nam ex. </p>
     </div>
     <div class="column">
-        <img src="http://travelsite2.local/wp-content/uploads/2022/05/airport.png" alt="pink globe icon.">
+        <img src="<?php the_field('icon_2'); ?>" alt="pink airplane.">
         <h2>CATCH YOUR FLIGHT</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis inventore, perspiciatis rerum quisquam nam ex. </p>
     </div>
     <div class="column">
-        <img src="http://travelsite2.local/wp-content/uploads/2022/05/pin.png" alt="pink globe icon.">
+        <img src="<?php the_field('icon_3'); ?>" alt="pink pin.">
         <h2>LAND IN PARADISE</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis inventore, perspiciatis rerum quisquam nam ex. </p>
     </div>
